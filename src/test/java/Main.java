@@ -20,7 +20,7 @@ public class Main {
         // Get title of the page we are currently on
         String title = driver.getTitle();
 
-        if (title.equals("The internet")) {
+        if (title.equals("The Internet")) {
             System.out.println("found the title with value: " + title);
         } else {
             System.out.println("Instead fount the title with value: " + title);
